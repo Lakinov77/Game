@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Recuerdos de DDI.mp3-c1f56d5e75ac3a0967fd85a72b37155a.mp3str"
+
+[deps]
+
+source_file="res://Recuerdos de DDI.mp3"
+dest_files=[ "res://.import/Recuerdos de DDI.mp3-c1f56d5e75ac3a0967fd85a72b37155a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

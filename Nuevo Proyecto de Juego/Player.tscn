@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Player_quieto_.png" type="Texture" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=2]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Quieto",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 19.0
+height = 96.0
+
+[node name="Player" type="Area2D"]
+position = Vector2( 340, 421 )
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 52, -41 )
+scale = Vector2( 0.2065, 0.192667 )
+frames = SubResource( 2 )
+animation = "Quieto"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 47, -34 )
+shape = SubResource( 1 )
+
+[connection signal="body_entered" from="." to="." method="_on_Player_body_entered"]

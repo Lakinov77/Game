@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bailar bailar.mp3-b7385fb0db07c1eeb2569ff349c07ef9.mp3str"
+
+[deps]
+
+source_file="res://Bailar bailar.mp3"
+dest_files=[ "res://.import/Bailar bailar.mp3-b7385fb0db07c1eeb2569ff349c07ef9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
